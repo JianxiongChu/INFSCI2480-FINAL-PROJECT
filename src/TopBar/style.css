@@ -1,0 +1,42 @@
+header {
+  background-color: #6ceac4;
+  min-height: 5.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > * {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-height: 57px;
+  margin-left: 1rem;
+}
+
+nav {
+  margin-right: 1rem;
+}
+
+.nav-item {
+  font-size: 2rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 5rem;
+  cursor: pointer;
+}
+
+.user-badge {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.user-icon {
+  max-height: 40px;
+  margin-right: 1rem;
+}
